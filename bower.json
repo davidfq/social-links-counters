@@ -1,0 +1,20 @@
+{
+  "name": "social-share-links-counters",
+  "version": "0.1.0",
+  "authors": [
+    "davidfq <davidfq@gmail.com>"
+  ],
+  "description": "A jQuery plugin for getting share counts of urls from social share links.",
+  "main": "./src/social-share-links-counters.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
