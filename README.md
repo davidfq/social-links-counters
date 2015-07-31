@@ -22,7 +22,7 @@ And the original link becomes in:
 ## TODO
 
 - Add "popup" option.
-- Add more social networks (currently 0.1.0, only Twitter and Facebook are
+- Add more social networks (currently 0.2.0, only Twitter and Facebook are
   supported).
 - Trigger custom events when counters are ready.
 - Add Google Analytics support.
