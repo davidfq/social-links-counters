@@ -6,7 +6,8 @@
   var pluginName = 'socialShareCounters',
     defaults = {
       innerSpan: true,
-      spanClass: pluginName + '__counter'
+      spanClass: pluginName + '__counter',
+      showZero: true
     },
     cache = {},
     providers = [
@@ -103,6 +104,10 @@
           spanClass = $el.data('span-class');
 
         $el.data("counter", link.counter);
+
+        if (!options.showZero && link.counter === 0) {
+          return;
+        }
 
         if (spanClass) {
           if ($el.find(spanClass).length === 0) {

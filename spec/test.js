@@ -1,6 +1,8 @@
 $(function(){
 
-  $('.social').socialShareCounters();
+  $('.social').socialShareCounters({
+    showZero : true
+  });
 
   $('.social-nospan').socialShareCounters({
       innerSpan : false
