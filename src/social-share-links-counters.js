@@ -90,7 +90,8 @@
 
       $.getJSON(url)
         .done(function(data) {
-          link.counter = data[link.provider.responseKey];
+          var count = data[link.provider.responseKey];
+          link.counter = typeof count !== 'number' ? 0 : count;
           updateCounters(el, options);
         });
     },
