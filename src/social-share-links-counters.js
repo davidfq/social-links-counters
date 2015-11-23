@@ -12,13 +12,6 @@
     cache = {},
     providers = [
       {
-        name : 'twitter',
-        host : /(www\.)?(twitter\.com)$/,
-        shareParam : 'url',
-        counterUrl : 'https://cdn.api.twitter.com/1/urls/count.json?url=',
-        responseKey : 'count'
-      },
-      {
         name : 'facebook',
         host : /(www\.)?(facebook\.com)$/,
         shareParam : 'u',
