@@ -15,7 +15,7 @@
         name : 'facebook',
         host : /(www\.)?(facebook\.com)$/,
         shareParam : 'u',
-        counterUrl : 'http://graph.facebook.com/?id=',
+        counterUrl : 'https://graph.facebook.com/?id=',
         responseKey : 'shares'
       }
     ];
